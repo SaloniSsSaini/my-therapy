@@ -1,0 +1,18 @@
+:root {
+  --color-text-primary: 30 41 59;
+  --color-text-secondary: 71 85 105;
+  --color-bg-main: 252 253 252;
+  --color-bg-muted: 240 245 242;
+  --color-accent: 120 160 145;
+  --color-border: 226 232 240;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-text-primary: 226 232 240;
+    --color-text-secondary: 148 163 184;
+    --color-bg-main: 15 23 42;
+    --color-bg-muted: 30 41 59;
+    --color-border: 51 65 85;
+  }
+}

@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-body);
+  @apply bg-bgMain text-textPrimary antialiased;
+}
+
+p {
+  @apply text-textSecondary leading-relaxed;
+}
+
+/* Headings typography */
+h1 {
+  font-family: var(--font-heading);
+  font-weight: 500;
+}
+
+h2 {
+  font-family: var(--font-heading);
+  font-weight: 500;
+}
+
+h3 {
+  font-family: var(--font-heading);
+  font-weight: 400;
+}
+
+/* Accessibility focus */
+:focus-visible {
+  outline: 2px solid rgb(var(--color-accent));
+  outline-offset: 3px;
+}
